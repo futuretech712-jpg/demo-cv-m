@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="hr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Tri prijedloga, Ime cvjećarne</title>
+<meta name="robots" content="noindex">
+<link rel="stylesheet" href="https://api.fontshare.com/v2/css?f[]=switzer@400,500,600&display=swap">
+<style>
+*{box-sizing:border-box;min-width:0}
+body{margin:0;background:#FAF8F4;color:#26231F;font:17px/1.6 Switzer,"Helvetica Neue",sans-serif}
+.sir{padding-inline:max(5vw,16px);max-width:1100px;margin-inline:auto}
+h1{font-size:clamp(34px,4.6vw,56px);font-weight:500;line-height:1.08;margin:48px 0 16px}
+p{max-width:64ch;margin:0 0 1em}
+a{color:#26231F;text-underline-offset:3px}
+:focus-visible{outline:3px solid #26231F;outline-offset:3px}
+.demo-traka{display:flex;flex-wrap:wrap;gap:6px 24px;justify-content:space-between;align-items:center;padding:8px max(4vw,16px);background:#1f1f1c;color:#f4f1ea;font:15px/1.4 system-ui,sans-serif}.demo-traka p{margin:0}.demo-traka nav{display:flex;gap:16px;flex-wrap:wrap}.demo-traka a{color:#f4f1ea}.demo-traka a[aria-current]{font-weight:700;text-decoration:none}
+ol{list-style:none;padding:0;margin:40px 0}
+li{display:grid;grid-template-columns:64px minmax(0,1fr) auto;gap:24px;align-items:center;padding:28px 0;border-top:1px solid rgba(38,35,31,.2)}
+li:last-child{border-bottom:1px solid rgba(38,35,31,.2)}
+.slovo{font-size:48px;font-weight:500;line-height:1}
+h2{margin:0 0 4px;font-size:26px;font-weight:500}h2 a{text-decoration:none}h2 a:hover{text-decoration:underline}
+.boje{display:flex}.boje span{width:36px;height:36px;border:1px solid rgba(0,0,0,.12)}
+.mala{font-size:16px;margin:0}
+@media(max-width:640px){li{grid-template-columns:48px minmax(0,1fr)}.boje{grid-column:2}}
+</style>
+</head>
+<body>
+<div class="demo-traka"><p>Demo za izbor smjera. Ime, cijene, rokovi i zone su primjeri.</p><nav><a href="./cjenik/">Cjenik</a></nav></div>
+<main class="sir">
+<h1>Tri prijedloga za Ime cvjećarne</h1>
+<p>Isti podaci, tri različita karaktera. Svaki prijedlog ima početnu stranicu, narudžbu bez registracije, cijene s baznom cijenom, dostavu pri vrhu i podnožje s podacima o trgovcu. Zajednički su stranica za sprovode i cjenik u CSV i XML formatu.</p>
+<ol><li><span class="slovo">A</span><div><h2><a href="./a/">Sezonska tržnica</a></h2><p class="mala">Svaki tjedan drugi buket od onoga što je u sezoni, ploča s tržnice i tjedna pretplata.</p><p class="mala">Fontovi: Gambarino i Switzer</p></div><div class="boje" aria-label="Boje"><span style="background:#F3EEE4" title="#F3EEE4"></span><span style="background:#3B4128" title="#3B4128"></span><span style="background:#D99A1E" title="#D99A1E"></span><span style="background:#C9CFB0" title="#C9CFB0"></span></div></li><li><span class="slovo">B</span><div><h2><a href="./b/">Atelijer</a></h2><p class="mala">Cvjećar kao zanatlija: radovi, vjenčanja, događanja i poslovni prostori, upit za ponudu.</p><p class="mala">Fontovi: Zodiak i General Sans</p></div><div class="boje" aria-label="Boje"><span style="background:#ECE9E3" title="#ECE9E3"></span><span style="background:#3B2A35" title="#3B2A35"></span><span style="background:#9DAF7A" title="#9DAF7A"></span><span style="background:#B9B2A8" title="#B9B2A8"></span></div></li><li><span class="slovo">C</span><div><h2><a href="./c/">Kvartovska cvjećarna</a></h2><p class="mala">Topla radnja u kvartu: buketi spremni danas, buket po mjeri u jednom dodiru, WhatsApp.</p><p class="mala">Fontovi: Fraunces (zamjena za Recoleta) i Switzer</p></div><div class="boje" aria-label="Boje"><span style="background:#FFF9F2" title="#FFF9F2"></span><span style="background:#6E1F2B" title="#6E1F2B"></span><span style="background:#4A7A2C" title="#4A7A2C"></span><span style="background:#F7E6D8" title="#F7E6D8"></span></div></li></ol>
+<p class="mala">Sve cijene, rokovi i zone dolaze iz jedne datoteke (podaci.json), iz koje se slažu i stranice i cjenik.</p>
+</main>
+</body>
+</html>

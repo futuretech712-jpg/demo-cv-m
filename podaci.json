@@ -1,0 +1,57 @@
+{
+  "demo": true,
+  "trgovina": {
+    "naziv": "Ime cvjećarne",
+    "pravniNaziv": "Naziv obrta ili tvrtke",
+    "oib": "00000000000",
+    "registar": "obrtni ili sudski registar",
+    "adresa": "Ulica i kućni broj",
+    "posta": "10000 Zagreb",
+    "grad": "Zagreb",
+    "telefon": "+385 1 000 0000",
+    "telefonLink": "+38510000000",
+    "whatsapp": "+385 91 000 0000",
+    "whatsappLink": "385910000000",
+    "email": "pozdrav@ime-cvjecarne.hr",
+    "vlasnik": "Ime vlasnice",
+    "otvorenje": "2026-12-01"
+  },
+  "radnoVrijeme": [
+    { "dani": "Ponedjeljak do petak", "brojevi": [1, 2, 3, 4, 5], "od": "8.00", "do": "20.00" },
+    { "dani": "Subota", "brojevi": [6], "od": "8.00", "do": "14.00" },
+    { "dani": "Nedjelja i blagdani", "brojevi": [0], "zatvoreno": true }
+  ],
+  "narudzba": {
+    "rokIstiDan": "14.00",
+    "preuzimanjeDo": "19.30",
+    "porukaZnakova": 200
+  },
+  "tjedan": { "od": "2026-12-01", "do": "2026-12-07" },
+  "sezona": ["anemone", "krizanteme", "amarilis", "ciklame", "eukaliptus", "grančice šipka", "hiperikum", "božikovina", "borove grančice"],
+  "proizvodi": [
+    { "sifra": "BUK-TJ", "naziv": "Buket tjedna", "opis": "Anemone, eukaliptus i grančice šipka", "cijena": 38, "bazna": 38, "datumBazne": "2026-12-01", "skupina": "tjedni", "danas": ["preuzimanje", "dostava"], "foto": "Tjedni buket na drvenom stolu u radnji" },
+    { "sifra": "BUK-KH", "naziv": "Krizanteme i bobice", "opis": "Bijele krizanteme s grančicama hiperikuma", "cijena": 32, "bazna": 32, "datumBazne": "2026-12-01", "skupina": "gotovi", "danas": ["preuzimanje", "dostava"], "foto": "Buket bijelih krizantema u ruci florista" },
+    { "sifra": "BUK-AM", "naziv": "Amarilis u loncu", "opis": "Crveni amarilis u glinenom loncu, cvate do Božića", "cijena": 22, "bazna": 22, "datumBazne": "2026-12-01", "skupina": "gotovi", "danas": ["preuzimanje"], "foto": "Amarilis u loncu na prozorskoj dasci izloga" },
+    { "sifra": "BUK-CI", "naziv": "Ciklame i eukaliptus", "opis": "Mali buket za stol ili kao zahvala", "cijena": 25, "bazna": 25, "datumBazne": "2026-12-01", "skupina": "gotovi", "danas": ["preuzimanje", "dostava"], "foto": "Mali buket ciklama u papiru" },
+    { "sifra": "BPM-25", "naziv": "Buket po mjeri, mali", "opis": "Složimo od sezonskog cvijeća u boji koju odabereš", "cijena": 25, "bazna": 25, "datumBazne": "2026-12-01", "skupina": "mjera" },
+    { "sifra": "BPM-40", "naziv": "Buket po mjeri, srednji", "opis": "Složimo od sezonskog cvijeća u boji koju odabereš", "cijena": 40, "bazna": 40, "datumBazne": "2026-12-01", "skupina": "mjera" },
+    { "sifra": "BPM-60", "naziv": "Buket po mjeri, veliki", "opis": "Složimo od sezonskog cvijeća u boji koju odabereš", "cijena": 60, "bazna": 60, "datumBazne": "2026-12-01", "skupina": "mjera" },
+    { "sifra": "PRE-M", "naziv": "Pretplata, mali buket", "opis": "Buket tjedna u maloj veličini, jednom tjedno", "cijena": 25, "bazna": 25, "datumBazne": "2026-12-01", "skupina": "pretplata", "jedinica": "tjedan" },
+    { "sifra": "PRE-S", "naziv": "Pretplata, srednji buket", "opis": "Buket tjedna kakav je na fotografiji, jednom tjedno", "cijena": 38, "bazna": 38, "datumBazne": "2026-12-01", "skupina": "pretplata", "jedinica": "tjedan" },
+    { "sifra": "PRE-V", "naziv": "Pretplata, veliki buket", "opis": "Buket tjedna s više cvijeća i zelenila, jednom tjedno", "cijena": 55, "bazna": 55, "datumBazne": "2026-12-01", "skupina": "pretplata", "jedinica": "tjedan" },
+    { "sifra": "SPR-IK", "naziv": "Ikebana za grob", "opis": "Niski aranžman u posudi s cvjetnom spužvom", "cijena": 45, "bazna": 45, "datumBazne": "2026-12-01", "skupina": "sprovod", "foto": "Ikebana od bijelog cvijeća na kamenoj podlozi" },
+    { "sifra": "SPR-BU", "naziv": "Sprovodni buket", "opis": "Vezani buket s vrpcom i tekstom po želji", "cijena": 55, "bazna": 55, "datumBazne": "2026-12-01", "skupina": "sprovod", "foto": "Buket bijelih ruža i zelenila s tamnom vrpcom" },
+    { "sifra": "SPR-VI", "naziv": "Vijenac", "opis": "Okrugli vijenac na stalku, s vrpcom i tekstom", "cijena": 90, "bazna": 90, "datumBazne": "2026-12-01", "skupina": "sprovod", "foto": "Vijenac od zelenila i bijelih krizantema" }
+  ],
+  "usluge": [
+    { "sifra": "DOS-1", "naziv": "Dostava, zona 1", "opis": "do 3 km od radnje", "cijena": 5, "bazna": 5, "datumBazne": "2026-12-01" },
+    { "sifra": "DOS-2", "naziv": "Dostava, zona 2", "opis": "od 3 do 8 km od radnje", "cijena": 8, "bazna": 8, "datumBazne": "2026-12-01" },
+    { "sifra": "DOS-3", "naziv": "Dostava, zona 3", "opis": "ostatak grada", "cijena": 12, "bazna": 12, "datumBazne": "2026-12-01" }
+  ],
+  "cjenik": {
+    "vrstaMjesta": "ZA_SVA_PRODAJNA_MJESTA",
+    "brojPohrane": 1,
+    "objavljeno": "2026-11-25T07:00",
+    "decimalniZnak": ","
+  }
+}

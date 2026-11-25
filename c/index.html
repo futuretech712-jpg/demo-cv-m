@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="hr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Ime cvjećarne, cvjećarna u kvartu</title>
+<meta name="description" content="Mala cvjećarna u kvartu. Buketi spremni danas, buket po mjeri od 25,00 €, preuzimanje usput ili dostava isti dan za narudžbe do 14.00.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght,SOFT@9..144,300..700,0..100&display=swap">
+<link rel="stylesheet" href="https://api.fontshare.com/v2/css?f[]=switzer@400,500,600&display=swap">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"Florist","name":"Ime cvjećarne","telephone":"+385 1 000 0000","email":"pozdrav@ime-cvjecarne.hr","address":{"@type":"PostalAddress","streetAddress":"Ulica i kućni broj","postalCode":"10000","addressLocality":"Zagreb","addressCountry":"HR"},"openingHoursSpecification":[{"@type":"OpeningHoursSpecification","dayOfWeek":["Mo","Tu","We","Th","Fr"],"opens":"8:00","closes":"20:00"},{"@type":"OpeningHoursSpecification","dayOfWeek":["Sa"],"opens":"8:00","closes":"14:00"}],"priceRange":"22,00 € do 90,00 €"}</script>
+<style>
+:root{--poz:#FFF9F2;--tekst:#6E1F2B;--nagl:#5E8C3A;--gumb:#4A7A2C;--sek:#F7E6D8;--crta:rgba(110,31,43,.22)}
+*{box-sizing:border-box;min-width:0}
+body{margin:0;background:var(--poz);color:var(--tekst);font:17px/1.6 Switzer,"Helvetica Neue",sans-serif;overflow-x:clip}
+h1,h2,h3{font-family:Fraunces,Georgia,serif;font-variation-settings:"SOFT" 100;font-weight:600;line-height:1.05;margin:0 0 .4em;text-wrap:balance}
+h1{font-size:clamp(44px,6.4vw,84px);letter-spacing:-.01em}
+h2{font-size:clamp(32px,4vw,52px)}
+h3{font-size:24px}
+p{margin:0 0 1em;max-width:58ch}
+a{color:var(--tekst);text-decoration-color:var(--nagl);text-decoration-thickness:2px;text-underline-offset:3px}
+:focus-visible{outline:3px solid var(--tekst);outline-offset:3px}
+.sir{padding-inline:max(5vw,16px);max-width:1280px;margin-inline:auto}
+.gumb{display:inline-block;background:var(--gumb);color:#fff;font-weight:600;text-decoration:none;padding:15px 24px;border-radius:4px;border:0;font-size:17px;cursor:pointer;font-family:inherit}
+.gumb:hover{background:#3f6a25}
+.gumb-dva{display:inline-block;color:var(--tekst);font-weight:600;padding:13px 22px;border:2px solid var(--tekst);border-radius:4px;text-decoration:none}
+.gumb-dva:hover{background:var(--sek)}
+.cijena{margin:0 0 12px}.mpc{display:block;font-size:24px;font-weight:600}.bazna{display:block;font-size:16px}
+.foto{margin:0;width:100%;background:repeating-linear-gradient(135deg,rgba(110,31,43,.05) 0 10px,transparent 10px 20px),var(--sek);border:1px dashed var(--crta);border-radius:4px;display:flex;align-items:flex-end;padding:14px}
+.foto span{font-size:15px;background:var(--poz);padding:4px 8px;border-radius:2px}
+.demo-traka{display:flex;flex-wrap:wrap;gap:6px 24px;justify-content:space-between;align-items:center;padding:8px max(4vw,16px);background:#1f1f1c;color:#f4f1ea;font:15px/1.4 system-ui,sans-serif}.demo-traka p{margin:0}.demo-traka nav{display:flex;gap:16px;flex-wrap:wrap}.demo-traka a{color:#f4f1ea}.demo-traka a[aria-current]{font-weight:700;text-decoration:none}
+.zag{display:flex;justify-content:space-between;align-items:center;gap:12px;flex-wrap:wrap;padding-block:16px;border-bottom:1px solid var(--crta)}
+.zag .ime{font-family:Fraunces,Georgia,serif;font-variation-settings:"SOFT" 100;font-weight:600;font-size:24px;text-decoration:none}
+.otvoreno{margin:0;font-weight:500}
+.uvod{display:grid;grid-template-columns:minmax(0,6fr) minmax(0,5fr);gap:clamp(24px,4vw,64px);align-items:center;padding-block:clamp(32px,5vw,72px)}
+.uvod .vrijeme{font-size:19px}
+.akcije{display:flex;flex-wrap:wrap;gap:12px;margin-top:8px}
+.uvod .rok{margin-top:20px;font-size:16px}
+.danas{background:var(--sek);padding-block:clamp(48px,7vw,96px)}
+.danas-mreza{display:grid;grid-template-columns:repeat(auto-fill,minmax(250px,1fr));gap:clamp(20px,3vw,36px);margin-top:28px}
+.danas h3{margin-top:14px}
+.danas .gdje{font-size:16px;margin-bottom:10px;border-left:3px solid var(--nagl);padding-left:10px}
+.mjera{display:grid;grid-template-columns:minmax(0,5fr) minmax(0,6fr);gap:clamp(24px,5vw,80px);padding-block:clamp(56px,8vw,112px)}
+.mjera fieldset{border:0;padding:0;margin:0 0 22px}
+.mjera legend{font-weight:600;margin-bottom:10px}
+.plocice{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:10px}
+.plocice label{position:relative;display:block}
+.plocice input{position:absolute;opacity:0;inset:0}
+.plocice span{display:block;border:2px solid var(--crta);border-radius:4px;padding:14px 10px;text-align:center;font-weight:600;cursor:pointer;min-height:56px}
+.plocice input:checked+span{border-color:var(--tekst);background:var(--sek)}
+.plocice input:focus-visible+span{outline:3px solid var(--tekst);outline-offset:2px}
+.boje{grid-template-columns:repeat(2,minmax(0,1fr))}
+.sazetak{border-top:1px solid var(--crta);padding-top:18px}
+.sazetak .mpc{font-size:30px}
+.prigode{border-top:1px solid var(--crta);padding-block:clamp(40px,6vw,80px)}
+.prigode ul{list-style:none;padding:0;margin:20px 0;display:flex;flex-wrap:wrap;gap:12px 40px}
+.prigode li a{font-family:Fraunces,Georgia,serif;font-variation-settings:"SOFT" 100;font-size:clamp(28px,3.4vw,40px);font-weight:500}
+.narudzba-c{display:grid;grid-template-columns:minmax(0,5fr) minmax(0,6fr);gap:clamp(24px,5vw,80px);padding-block:clamp(56px,8vw,112px);background:var(--sek)}
+.narudzba-c>*{max-width:none}
+.tko{display:grid;grid-template-columns:minmax(0,5fr) minmax(0,6fr);gap:clamp(24px,5vw,80px);align-items:center;padding-block:clamp(56px,8vw,112px)}
+.dolazak{display:grid;grid-template-columns:minmax(0,6fr) minmax(0,5fr);gap:clamp(24px,5vw,80px);padding-block:clamp(48px,7vw,96px);border-top:1px solid var(--crta)}
+.rv th{font-weight:400;text-align:left;padding:5px 16px 5px 0}.rv td{padding:5px 0;white-space:nowrap}
+.podnozje{background:var(--tekst);color:var(--poz);padding:48px max(5vw,16px) 96px}.podnozje a{color:var(--poz);text-decoration-color:#b9d79e}
+.pod-stupci{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:32px;max-width:1280px;margin:auto}
+.pod-naziv{font-family:Fraunces,Georgia,serif;font-size:26px}
+.mob-traka{display:none}
+.obrazac{display:grid;gap:18px;max-width:560px}.polje{display:grid;gap:6px;border:0;padding:0;margin:0}.polje label,.polje legend{font-weight:600}.obrazac input:not([type=radio]):not([type=checkbox]),.obrazac select,.obrazac textarea{font:inherit;font-size:17px;padding:12px;border:1px solid #6E1F2B;border-radius:4px;background:#fffdfb;color:inherit;width:100%;min-height:48px}.izbor{display:flex;gap:10px;align-items:center;font-weight:400 !important;min-height:44px}.izbor input{width:20px;height:20px;accent-color:#4A7A2C}.pomoc{font-size:16px;margin:0;opacity:.9}[aria-invalid=true]{border-color:#9b1c1c !important;border-width:2px !important}.poruka-demo{margin:0;font-weight:600}.obrazac .gumb{justify-self:start}[hidden]{display:none !important}
+@media(max-width:860px){
+.uvod,.mjera,.narudzba-c,.tko,.dolazak,.pod-stupci{grid-template-columns:minmax(0,1fr)}
+.uvod .foto{order:-1;aspect-ratio:3 / 2 !important}
+.plocice{grid-template-columns:repeat(2,minmax(0,1fr))}
+.mob-traka{display:grid;grid-template-columns:1fr 1fr;position:fixed;inset:auto 0 0 0;z-index:5;background:var(--gumb)}
+.mob-traka a{color:#fff;text-align:center;padding:16px;font-weight:600;text-decoration:none}.mob-traka a+a{border-left:1px solid rgba(255,255,255,.35)}
+}
+</style>
+</head>
+<body>
+<div class="demo-traka"><p>Prijedlog dizajna C. Ime, cijene, rokovi i zone su primjeri, a prazna polja čekaju stvarne fotografije.</p><nav aria-label="Prijedlozi"><a href="../a/">Smjer A</a><a href="../b/">Smjer B</a><a href="../c/" aria-current="page">Smjer C</a><a href="../cjenik/">Cjenik</a></nav></div>
+<header class="sir zag">
+<a class="ime" href="#">Ime cvjećarne</a>
+<p class="otvoreno" id="otvoreno">Ponedjeljak do petak: 8.00 do 20.00</p>
+</header>
+<main>
+<section class="sir uvod" aria-labelledby="uvod-naslov">
+<div>
+<h1 id="uvod-naslov">Ime cvjećarne</h1>
+<p class="vrijeme">Mala cvjećarna u tvom kvartu, na adresi Ulica i kućni broj. Svrati usput ili naruči, složimo i pošaljemo.</p>
+<div class="akcije">
+<a class="gumb" href="#danas">Naruči online</a>
+<a class="gumb-dva" href="https://wa.me/385910000000?text=Bok%2C%20%C5%BEelim%20naru%C4%8Diti%20buket.">Pošalji poruku na WhatsApp</a>
+</div>
+<p class="rok">Narudžbe do 14.00 dostavljamo isti dan, kasnije sljedeći radni dan. Preuzimanje u radnji do 19.30. Dostava od 5,00 €.</p>
+</div>
+<figure class="foto " style="aspect-ratio:4 / 5" role="img" aria-label="Mjesto za fotografiju: Izlog radnje s cvijećem i vlasnicom na vratima"><span>Fotografija: Izlog radnje s cvijećem i vlasnicom na vratima</span></figure>
+</section>
+
+<section class="danas" id="danas" aria-labelledby="danas-naslov">
+<div class="sir">
+<h2 id="danas-naslov">Spremno danas</h2>
+<p>Ovo je složeno jutros i čeka u radnji. Kad se proda, nestaje s popisa.</p>
+<div class="danas-mreza">
+<article><figure class="foto " style="aspect-ratio:1 / 1" role="img" aria-label="Mjesto za fotografiju: Tjedni buket na drvenom stolu u radnji"><span>Fotografija: Tjedni buket na drvenom stolu u radnji</span></figure><h3>Buket tjedna</h3><p class="gdje">za preuzimanje i dostavu</p><p class="cijena "><span class="mpc">38,00 €</span><span class="bazna">Bazna cijena 38,00 € (prvi dan u ponudi, 1. 12. 2026.)</span></p><a href="#narudzba" data-sifra="BUK-TJ">Naruči</a></article><article><figure class="foto " style="aspect-ratio:1 / 1" role="img" aria-label="Mjesto za fotografiju: Buket bijelih krizantema u ruci florista"><span>Fotografija: Buket bijelih krizantema u ruci florista</span></figure><h3>Krizanteme i bobice</h3><p class="gdje">za preuzimanje i dostavu</p><p class="cijena "><span class="mpc">32,00 €</span><span class="bazna">Bazna cijena 32,00 € (prvi dan u ponudi, 1. 12. 2026.)</span></p><a href="#narudzba" data-sifra="BUK-KH">Naruči</a></article><article><figure class="foto " style="aspect-ratio:1 / 1" role="img" aria-label="Mjesto za fotografiju: Amarilis u loncu na prozorskoj dasci izloga"><span>Fotografija: Amarilis u loncu na prozorskoj dasci izloga</span></figure><h3>Amarilis u loncu</h3><p class="gdje">samo za preuzimanje</p><p class="cijena "><span class="mpc">22,00 €</span><span class="bazna">Bazna cijena 22,00 € (prvi dan u ponudi, 1. 12. 2026.)</span></p><a href="#narudzba" data-sifra="BUK-AM">Naruči</a></article><article><figure class="foto " style="aspect-ratio:1 / 1" role="img" aria-label="Mjesto za fotografiju: Mali buket ciklama u papiru"><span>Fotografija: Mali buket ciklama u papiru</span></figure><h3>Ciklame i eukaliptus</h3><p class="gdje">za preuzimanje i dostavu</p><p class="cijena "><span class="mpc">25,00 €</span><span class="bazna">Bazna cijena 25,00 € (prvi dan u ponudi, 1. 12. 2026.)</span></p><a href="#narudzba" data-sifra="BUK-CI">Naruči</a></article>
+</div>
+</div>
+</section>
+
+<section class="sir mjera" id="mjera" aria-labelledby="mjera-naslov">
+<div>
+<h2 id="mjera-naslov">Buket po mjeri</h2>
+<p>Odaberi koliko želiš potrošiti i boju, a mi složimo od onoga što je danas najljepše. Cijena je fiksna za svaku veličinu, pa znaš točno koliko plaćaš.</p>
+<p>Za više od 60,00 € <a href="https://wa.me/385910000000?text=Bok%2C%20zanima%20me%20ve%C4%87i%20buket%20po%20mjeri.">javi se porukom</a> i dogovorimo.</p>
+</div>
+<form id="obrazac-mjera" novalidate>
+<fieldset><legend>Koliko</legend>
+<div class="plocice"><label><input type="radio" name="budzet" value="BPM-25" data-cijena="25" data-bazna="25"><span>25,00 €</span></label><label><input type="radio" name="budzet" value="BPM-40" data-cijena="40" data-bazna="40" checked><span>40,00 €</span></label><label><input type="radio" name="budzet" value="BPM-60" data-cijena="60" data-bazna="60"><span>60,00 €</span></label><label><input type="radio" name="budzet" value="vise"><span>Više</span></label></div>
+</fieldset>
+<fieldset><legend>Boja</legend>
+<div class="plocice boje"><label><input type="radio" name="boja" value="bijela i zelena"><span>bijela i zelena</span></label><label><input type="radio" name="boja" value="ružičasta" checked><span>ružičasta</span></label><label><input type="radio" name="boja" value="žuta i narančasta"><span>žuta i narančasta</span></label><label><input type="radio" name="boja" value="šarena"><span>šarena</span></label></div>
+</fieldset>
+<div class="sazetak" aria-live="polite">
+<p id="mjera-opis"></p>
+<p class="cijena"><span class="mpc" id="mjera-cijena"></span><span class="bazna" id="mjera-bazna"></span></p>
+<a class="gumb" href="#narudzba" id="mjera-gumb">Naruči ovaj buket</a>
+</div>
+</form>
+</section>
+
+<section class="sir prigode" aria-labelledby="prigode-naslov">
+<h2 id="prigode-naslov">Za koju prigodu</h2>
+<ul><li><a href="#danas">Rođendan</a></li><li><a href="#mjera">Isprika</a></li><li><a href="#mjera">Samo tako</a></li></ul>
+<p>Za sprovode imamo <a href="../sprovod/">posebnu stranicu</a> i telefon +385 1 000 0000.</p>
+</section>
+
+<section class="narudzba-c" id="narudzba" aria-labelledby="narudzba-naslov">
+<div class="sir" style="padding-inline:max(5vw,16px) 0;margin:0"><h2 id="narudzba-naslov">Narudžba</h2><p>Bez registracije, u par koraka. Potvrda stiže e-poštom.</p></div>
+<div class="sir" style="padding-inline:0 max(5vw,16px);margin:0"><form class="obrazac" id="obrazac-narudzbe" novalidate>
+<div class="polje"><label for="n-proizvod">Što naručuješ</label>
+<select id="n-proizvod" name="proizvod"><option value="BUK-TJ" data-cijena="38">Buket tjedna, 38,00 €</option><option value="BUK-KH" data-cijena="32">Krizanteme i bobice, 32,00 €</option><option value="BUK-AM" data-cijena="22">Amarilis u loncu, 22,00 €</option><option value="BUK-CI" data-cijena="25">Ciklame i eukaliptus, 25,00 €</option><option value="BPM-25" data-cijena="25">Buket po mjeri, mali, 25,00 €</option><option value="BPM-40" data-cijena="40" selected>Buket po mjeri, srednji, 40,00 €</option><option value="BPM-60" data-cijena="60">Buket po mjeri, veliki, 60,00 €</option><option value="PRE-M" data-cijena="25">Pretplata, mali buket, 25,00 € tjedno</option><option value="PRE-S" data-cijena="38">Pretplata, srednji buket, 38,00 € tjedno</option><option value="PRE-V" data-cijena="55">Pretplata, veliki buket, 55,00 € tjedno</option></select></div>
+<fieldset class="polje"><legend>Dostava ili preuzimanje</legend>
+<label class="izbor"><input type="radio" name="nacin" value="dostava" checked> Dostava</label>
+<label class="izbor"><input type="radio" name="nacin" value="preuzimanje"> Preuzimanje u radnji do 19.30</label></fieldset>
+<div class="polje"><label for="n-datum">Datum</label><input id="n-datum" name="datum" type="date" required aria-describedby="n-datum-pom"><p class="pomoc" id="n-datum-pom">Narudžbe do 14.00 stižu isti dan. Nedjeljom ne radimo.</p></div>
+<div class="polje samo-dostava"><label for="n-zona">Zona dostave</label>
+<select id="n-zona" name="zona"><option value="DOS-1" data-cijena="5">zona 1, do 3 km od radnje, 5,00 €</option><option value="DOS-2" data-cijena="8">zona 2, od 3 do 8 km od radnje, 8,00 €</option><option value="DOS-3" data-cijena="12">zona 3, ostatak grada, 12,00 €</option></select></div>
+<div class="polje samo-dostava"><label for="n-primatelj">Ime primatelja</label><input id="n-primatelj" name="primatelj" autocomplete="off"></div>
+<div class="polje samo-dostava"><label for="n-adresa">Adresa primatelja</label><input id="n-adresa" name="adresa" autocomplete="off"></div>
+<div class="polje samo-dostava"><label for="n-tel-prim">Telefon primatelja, za dostavljača</label><input id="n-tel-prim" name="telefonPrimatelja" type="tel" autocomplete="off"></div>
+<div class="polje"><label for="n-poruka">Poruka na kartici</label><textarea id="n-poruka" name="poruka" rows="3" maxlength="200" aria-describedby="n-poruka-pom"></textarea><p class="pomoc" id="n-poruka-pom"><span id="n-znakovi">0</span> od 200 znakova</p>
+<label class="izbor"><input type="checkbox" name="anonimno"> Bez imena pošiljatelja na kartici</label></div>
+<div class="polje"><label for="n-ime">Tvoje ime</label><input id="n-ime" name="ime" autocomplete="name" required></div>
+<div class="polje"><label for="n-email">E-pošta, za potvrdu</label><input id="n-email" name="email" type="email" autocomplete="email" required></div>
+<div class="polje"><label for="n-tel">Telefon</label><input id="n-tel" name="telefon" type="tel" autocomplete="tel" required></div>
+<p class="pomoc">Plaćanje karticom, Apple Payom ili Google Payom. Za cvijeće i aranžmane po narudžbi pravo na jednostrani raskid ne primjenjuje se jer je riječ o lako pokvarljivoj robi.</p>
+<button class="gumb" type="submit" id="n-plati">Naruči i plati</button>
+<p class="poruka-demo" id="n-demo" role="status" hidden>Ovo je demo. U pravoj verziji ovdje se otvara plaćanje.</p>
+</form></div>
+</section>
+
+<section class="sir tko" aria-labelledby="tko-naslov">
+<figure class="foto " style="aspect-ratio:5 / 4" role="img" aria-label="Mjesto za fotografiju: Vlasnica i suradnica u radnji, za pultom"><span>Fotografija: Vlasnica i suradnica u radnji, za pultom</span></figure>
+<div>
+<h2 id="tko-naslov">Tko smo</h2>
+<p>Ovdje idu imena i kratka priča, njihovim riječima: zašto baš ovaj kvart i ova radnja. Dvije do tri rečenice.</p>
+<p>Ime vlasnice</p>
+</div>
+</section>
+
+<section class="sir dolazak" aria-labelledby="dolazak-naslov">
+<div>
+<figure class="foto " style="aspect-ratio:16 / 10" role="img" aria-label="Mjesto za fotografiju: Statična karta kvarta s označenom radnjom"><span>Fotografija: Statična karta kvarta s označenom radnjom</span></figure>
+<p style="margin-top:12px"><a href="https://www.google.com/maps/search/?api=1&query=Ulica%20i%20ku%C4%87ni%20broj%2C%2010000%20Zagreb">Otvori u Google Maps</a> ili <a href="https://maps.apple.com/?q=Ulica%20i%20ku%C4%87ni%20broj%2C%2010000%20Zagreb">Apple Maps</a></p>
+</div>
+<div>
+<h2 id="dolazak-naslov">Kako do nas</h2>
+<p>Ulica i kućni broj, 10000 Zagreb</p>
+<p>Tramvaj: ovdje idu linije i najbliža stanica.<br>Parking: ovdje ide gdje se može parkirati na kratko.</p>
+<table class="rv"><tbody><tr><th scope="row">Ponedjeljak do petak</th><td>8.00–20.00</td></tr><tr><th scope="row">Subota</th><td>8.00–14.00</td></tr><tr><th scope="row">Nedjelja i blagdani</th><td>zatvoreno</td></tr></tbody></table>
+<p style="margin-top:16px"><a href="tel:+38510000000">+385 1 000 0000</a></p>
+</div>
+</section>
+</main>
+<footer class="podnozje"><div class="pod-stupci"><div><p class="pod-naziv">Ime cvjećarne</p><p>Ulica i kućni broj<br>10000 Zagreb</p><p><a href="tel:+38510000000">+385 1 000 0000</a><br><a href="mailto:pozdrav@ime-cvjecarne.hr">pozdrav@ime-cvjecarne.hr</a></p></div><div><p>Naziv obrta ili tvrtke, OIB 00000000000, upisan u obrtni ili sudski registar.</p><p>Cijene su u eurima i konačne. Za cvijeće i aranžmane izrađene po narudžbi pravo na jednostrani raskid ugovora ne primjenjuje se jer je riječ o lako pokvarljivoj robi.</p></div><div><p><a href="../cjenik/">Cjenik i bazne cijene</a><br><a href="../sprovod/">Cvijeće za sprovod</a></p><p>Opći uvjeti, izjava o privatnosti i prigovori: u izradi.</p></div></div></footer>
+<div class="mob-traka"><a href="tel:+38510000000">Nazovi</a><a href="https://wa.me/385910000000?text=Dobar%20dan%2C%20zanima%20me%20narud%C5%BEba.">WhatsApp</a></div>
+<script>{
+const f=document.getElementById('obrazac-narudzbe');
+if(f){
+const fmt=new Intl.NumberFormat('hr-HR',{style:'currency',currency:'EUR',minimumFractionDigits:2});
+const zatvoreno=[0];
+const datum=f.querySelector('#n-datum'),pom=f.querySelector('#n-datum-pom'),tekstPom=pom.textContent;
+const iso=x=>x.getFullYear()+'-'+String(x.getMonth()+1).padStart(2,'0')+'-'+String(x.getDate()).padStart(2,'0');
+const prvi=()=>{const s=new Date();const x=new Date(s.getFullYear(),s.getMonth(),s.getDate());if(s.getHours()*60+s.getMinutes()>=840)x.setDate(x.getDate()+1);while(zatvoreno.includes(x.getDay()))x.setDate(x.getDate()+1);return x};
+datum.min=iso(prvi());datum.value=datum.min;
+const ukupno=()=>{const p=+f.proizvod.selectedOptions[0].dataset.cijena;const dost=f.nacin.value==='dostava'?+f.zona.selectedOptions[0].dataset.cijena:0;f.querySelector('#n-plati').textContent='Naruči i plati '+fmt.format(p+dost)};
+const nacin=()=>{for(const el of f.querySelectorAll('.samo-dostava'))el.hidden=f.nacin.value!=='dostava';ukupno()};
+datum.addEventListener('change',()=>{const x=new Date(datum.value+'T12:00');const los=zatvoreno.includes(x.getDay())||datum.value<datum.min;datum.setAttribute('aria-invalid',los);pom.textContent=los?'Taj dan ne možemo. Prvi slobodan dan je '+prvi().toLocaleDateString('hr-HR')+'.':tekstPom});
+f.addEventListener('change',e=>{if(e.target.name==='nacin')nacin();else ukupno()});
+const poruka=f.querySelector('#n-poruka');poruka.addEventListener('input',()=>{f.querySelector('#n-znakovi').textContent=poruka.value.length});
+for(const a of document.querySelectorAll('[data-sifra]'))a.addEventListener('click',()=>{f.proizvod.value=a.dataset.sifra;ukupno()});
+f.addEventListener('submit',e=>{e.preventDefault();f.querySelector('#n-demo').hidden=false});
+nacin();
+}}</script>
+<script>{
+const fmt=new Intl.NumberFormat('hr-HR',{style:'currency',currency:'EUR',minimumFractionDigits:2});
+const f=document.getElementById('obrazac-mjera');
+const osvjezi=()=>{const b=f.budzet.value==='vise'?null:f.querySelector('input[name=budzet]:checked');const boja=f.boja.value;const opis=document.getElementById('mjera-opis'),c=document.getElementById('mjera-cijena'),bz=document.getElementById('mjera-bazna'),g=document.getElementById('mjera-gumb');
+if(!b){opis.textContent='Veći buket, '+boja+'. Cijenu dogovaramo porukom.';c.textContent='';bz.textContent='';g.textContent='Pošalji poruku';g.href='https://wa.me/385910000000?text='+encodeURIComponent('Bok, zanima me buket po mjeri veći od 60,00 €, boja: '+boja+'.');return}
+opis.textContent='Buket po mjeri, '+boja+'.';c.textContent=fmt.format(+b.dataset.cijena);bz.textContent='Bazna cijena '+fmt.format(+b.dataset.bazna)+' (prvi dan u ponudi, 1. 12. 2026.)';g.textContent='Naruči ovaj buket';g.href='#narudzba';g.dataset.sifra=b.value};
+f.addEventListener('change',osvjezi);osvjezi();
+document.getElementById('mjera-gumb').addEventListener('click',e=>{const s=e.currentTarget.dataset.sifra;const sel=document.getElementById('n-proizvod');if(s&&sel){sel.value=s;sel.dispatchEvent(new Event('change',{bubbles:true}))}});
+const rv=[{"dani":"Ponedjeljak do petak","brojevi":[1,2,3,4,5],"od":"8.00","do":"20.00"},{"dani":"Subota","brojevi":[6],"od":"8.00","do":"14.00"},{"dani":"Nedjelja i blagdani","brojevi":[0],"zatvoreno":true}];
+const sad=new Date(),dan=sad.getDay(),min=sad.getHours()*60+sad.getMinutes();
+const r=rv.find(x=>x.brojevi.includes(dan));const uMin=s=>{const[a,b]=s.split('.').map(Number);return a*60+b};
+const o=document.getElementById('otvoreno');
+if(r&&!r.zatvoreno&&min>=uMin(r.od)&&min<uMin(r.do))o.textContent='Danas otvoreno do '+r.do;
+else if(r&&!r.zatvoreno&&min<uMin(r.od))o.textContent='Danas otvaramo u '+r.od;
+else o.textContent='Sada zatvoreno. Narudžbe primamo i dalje.';
+}</script>
+</body>
+</html>

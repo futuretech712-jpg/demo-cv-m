@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cjenik trgovac="Naziv obrta ili tvrtke" oib="00000000000" prodajno_mjesto="ZA_SVA_PRODAJNA_MJESTA" vrsta="usluge" objavljeno="2026-11-25T07:00">
+  <stavka>
+    <naziv_usluge>Dostava, zona 1, do 3 km od radnje</naziv_usluge>
+    <maloprodajna_cijena>5,00</maloprodajna_cijena>
+    <poseban_oblik_prodaje></poseban_oblik_prodaje>
+    <bazna_cijena>5,00</bazna_cijena>
+    <datum_bazne_cijene>2026-12-01</datum_bazne_cijene>
+  </stavka>
+  <stavka>
+    <naziv_usluge>Dostava, zona 2, od 3 do 8 km od radnje</naziv_usluge>
+    <maloprodajna_cijena>8,00</maloprodajna_cijena>
+    <poseban_oblik_prodaje></poseban_oblik_prodaje>
+    <bazna_cijena>8,00</bazna_cijena>
+    <datum_bazne_cijene>2026-12-01</datum_bazne_cijene>
+  </stavka>
+  <stavka>
+    <naziv_usluge>Dostava, zona 3, ostatak grada</naziv_usluge>
+    <maloprodajna_cijena>12,00</maloprodajna_cijena>
+    <poseban_oblik_prodaje></poseban_oblik_prodaje>
+    <bazna_cijena>12,00</bazna_cijena>
+    <datum_bazne_cijene>2026-12-01</datum_bazne_cijene>
+  </stavka>
+</cjenik>

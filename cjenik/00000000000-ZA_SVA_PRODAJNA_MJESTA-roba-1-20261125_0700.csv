@@ -1,0 +1,14 @@
+Naziv robe;Šifra robe;Marka robe;Neto količina;Jedinica mjere;Maloprodajna cijena;Poseban oblik prodaje;Cijena za jedinicu mjere;Barkod;EAN barkod;Bazna cijena;Datum bazne cijene
+Buket tjedna;BUK-TJ;;1;komad;38,00;;;;;38,00;2026-12-01
+Krizanteme i bobice;BUK-KH;;1;komad;32,00;;;;;32,00;2026-12-01
+Amarilis u loncu;BUK-AM;;1;komad;22,00;;;;;22,00;2026-12-01
+Ciklame i eukaliptus;BUK-CI;;1;komad;25,00;;;;;25,00;2026-12-01
+Buket po mjeri, mali;BPM-25;;1;komad;25,00;;;;;25,00;2026-12-01
+Buket po mjeri, srednji;BPM-40;;1;komad;40,00;;;;;40,00;2026-12-01
+Buket po mjeri, veliki;BPM-60;;1;komad;60,00;;;;;60,00;2026-12-01
+Pretplata, mali buket;PRE-M;;1;tjedan;25,00;;;;;25,00;2026-12-01
+Pretplata, srednji buket;PRE-S;;1;tjedan;38,00;;;;;38,00;2026-12-01
+Pretplata, veliki buket;PRE-V;;1;tjedan;55,00;;;;;55,00;2026-12-01
+Ikebana za grob;SPR-IK;;1;komad;45,00;;;;;45,00;2026-12-01
+Sprovodni buket;SPR-BU;;1;komad;55,00;;;;;55,00;2026-12-01
+Vijenac;SPR-VI;;1;komad;90,00;;;;;90,00;2026-12-01

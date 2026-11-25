@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="hr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Cjenik i bazne cijene, Ime cvjećarne</title>
+<meta name="description" content="Važeći cjenik robe i usluga u CSV i XML formatu, bazne cijene i arhiva zamijenjenih cjenika.">
+<link rel="stylesheet" href="https://api.fontshare.com/v2/css?f[]=switzer@400,500,600&display=swap">
+<style>
+:root{--poz:#FAF8F4;--tekst:#26231F;--crta:rgba(38,35,31,.2)}
+*{box-sizing:border-box;min-width:0}
+body{margin:0;background:var(--poz);color:var(--tekst);font:17px/1.6 Switzer,"Helvetica Neue",sans-serif}
+h1{font-size:clamp(34px,4.4vw,52px);font-weight:500;line-height:1.1;margin:0 0 .5em}
+h2{font-size:clamp(24px,2.6vw,30px);font-weight:500;margin:0 0 .6em}
+p{margin:0 0 1em;max-width:66ch}
+a{color:var(--tekst);text-underline-offset:3px}
+:focus-visible{outline:3px solid var(--tekst);outline-offset:3px}
+.sir{padding-inline:max(5vw,16px);max-width:1100px;margin-inline:auto}
+.demo-traka{display:flex;flex-wrap:wrap;gap:6px 24px;justify-content:space-between;align-items:center;padding:8px max(4vw,16px);background:#1f1f1c;color:#f4f1ea;font:15px/1.4 system-ui,sans-serif}.demo-traka p{margin:0}.demo-traka nav{display:flex;gap:16px;flex-wrap:wrap}.demo-traka a{color:#f4f1ea}.demo-traka a[aria-current]{font-weight:700;text-decoration:none}
+section{padding-block:clamp(32px,5vw,56px);border-bottom:1px solid var(--crta)}
+.datoteke{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:24px}
+.datoteke div{border:1px solid var(--crta);border-radius:4px;padding:20px}
+.datoteke a{margin-right:16px;font-weight:600}
+.datoteke code{font-size:14px;overflow-wrap:anywhere;display:block;margin-top:10px;opacity:.8}
+.scroll{overflow-x:auto}
+table{border-collapse:collapse;width:100%;min-width:720px}
+th,td{text-align:left;padding:10px 12px 10px 0;border-bottom:1px solid var(--crta);vertical-align:top}
+th{font-weight:600}
+.br{text-align:right;white-space:nowrap}
+.podnozje{background:var(--tekst);color:var(--poz);padding:48px max(5vw,16px)}.podnozje a{color:var(--poz)}
+.pod-stupci{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:32px;max-width:1100px;margin:auto}
+.pod-naziv{font-size:22px;font-weight:600}
+@media(max-width:760px){.datoteke,.pod-stupci{grid-template-columns:minmax(0,1fr)}}
+</style>
+</head>
+<body>
+<div class="demo-traka"><p>Prijedlog dizajna. Ime, cijene, rokovi i zone su primjeri, a prazna polja čekaju stvarne fotografije.</p><nav aria-label="Prijedlozi"><a href="../a/">Smjer A</a><a href="../b/">Smjer B</a><a href="../c/">Smjer C</a><a href="../cjenik/">Cjenik</a></nav></div>
+<main class="sir">
+<section>
+<h1>Cjenik i bazne cijene</h1>
+<p>Ovdje su naši važeći cjenici u obliku koji računala mogu čitati, kako propisuju Pravilnik o isticanju bazne cijene proizvoda i Pravilnik o načinu objave cjenika proizvoda (NN 132/26). Isti cjenik vrijedi u radnji i na web stranici.</p>
+<p>Bazna cijena je cijena s kojom je proizvod prvi put ušao u našu ponudu. Otvorili smo 1. 12. 2026., nakon referentnog datuma 10. 9. 2026., pa je za sve proizvode to cijena s prvog dana u ponudi. Služi za usporedbu i ne plaća se dodatno.</p>
+</section>
+<section aria-labelledby="dat-naslov">
+<h2 id="dat-naslov">Važeći cjenik</h2>
+<p>Objavljen 25. 11. 2026. u 07.00. Cjenik se objavljuje do 11.00 na dan svake promjene.</p>
+<div class="datoteke">
+<div><p style="margin:0 0 8px"><strong>Roba</strong></p><a href="./00000000000-ZA_SVA_PRODAJNA_MJESTA-roba-1-20261125_0700.csv">CSV</a><a href="./00000000000-ZA_SVA_PRODAJNA_MJESTA-roba-1-20261125_0700.xml">XML</a><code>00000000000-ZA_SVA_PRODAJNA_MJESTA-roba-1-20261125_0700.csv</code><p style="margin:10px 0 0;font-size:16px">Stalna adresa: <a href="./aktualni-roba.csv">aktualni-roba.csv</a>, <a href="./aktualni-roba.xml">aktualni-roba.xml</a></p></div>
+<div><p style="margin:0 0 8px"><strong>Usluge</strong></p><a href="./00000000000-ZA_SVA_PRODAJNA_MJESTA-usluge-1-20261125_0700.csv">CSV</a><a href="./00000000000-ZA_SVA_PRODAJNA_MJESTA-usluge-1-20261125_0700.xml">XML</a><code>00000000000-ZA_SVA_PRODAJNA_MJESTA-usluge-1-20261125_0700.csv</code><p style="margin:10px 0 0;font-size:16px">Stalna adresa: <a href="./aktualni-usluge.csv">aktualni-usluge.csv</a>, <a href="./aktualni-usluge.xml">aktualni-usluge.xml</a></p></div>
+</div>
+<p style="margin-top:20px;font-size:16px">CSV je u UTF-8 kodiranju, stupci su odvojeni točkom-zarezom.</p>
+</section>
+<section aria-labelledby="tab-naslov">
+<h2 id="tab-naslov">Pregled cijena</h2>
+<div class="scroll"><table>
+<thead><tr><th scope="col">Naziv</th><th scope="col">Šifra</th><th scope="col" class="br">Cijena</th><th scope="col">Akcija</th><th scope="col" class="br">Bazna cijena</th><th scope="col">Datum bazne cijene</th></tr></thead>
+<tbody><tr><td>Buket tjedna</td><td>BUK-TJ</td><td class="br">38,00 €</td><td>ne</td><td class="br">38,00 €</td><td>prvi dan u ponudi, 1. 12. 2026.</td></tr><tr><td>Krizanteme i bobice</td><td>BUK-KH</td><td class="br">32,00 €</td><td>ne</td><td class="br">32,00 €</td><td>prvi dan u ponudi, 1. 12. 2026.</td></tr><tr><td>Amarilis u loncu</td><td>BUK-AM</td><td class="br">22,00 €</td><td>ne</td><td class="br">22,00 €</td><td>prvi dan u ponudi, 1. 12. 2026.</td></tr><tr><td>Ciklame i eukaliptus</td><td>BUK-CI</td><td class="br">25,00 €</td><td>ne</td><td class="br">25,00 €</td><td>prvi dan u ponudi, 1. 12. 2026.</td></tr><tr><td>Buket po mjeri, mali</td><td>BPM-25</td><td class="br">25,00 €</td><td>ne</td><td class="br">25,00 €</td><td>prvi dan u ponudi, 1. 12. 2026.</td></tr><tr><td>Buket po mjeri, srednji</td><td>BPM-40</td><td class="br">40,00 €</td><td>ne</td><td class="br">40,00 €</td><td>prvi dan u ponudi, 1. 12. 2026.</td></tr><tr><td>Buket po mjeri, veliki</td><td>BPM-60</td><td class="br">60,00 €</td><td>ne</td><td class="br">60,00 €</td><td>prvi dan u ponudi, 1. 12. 2026.</td></tr><tr><td>Pretplata, mali buket</td><td>PRE-M</td><td class="br">25,00 €</td><td>ne</td><td class="br">25,00 €</td><td>prvi dan u ponudi, 1. 12. 2026.</td></tr><tr><td>Pretplata, srednji buket</td><td>PRE-S</td><td class="br">38,00 €</td><td>ne</td><td class="br">38,00 €</td><td>prvi dan u ponudi, 1. 12. 2026.</td></tr><tr><td>Pretplata, veliki buket</td><td>PRE-V</td><td class="br">55,00 €</td><td>ne</td><td class="br">55,00 €</td><td>prvi dan u ponudi, 1. 12. 2026.</td></tr><tr><td>Ikebana za grob</td><td>SPR-IK</td><td class="br">45,00 €</td><td>ne</td><td class="br">45,00 €</td><td>prvi dan u ponudi, 1. 12. 2026.</td></tr><tr><td>Sprovodni buket</td><td>SPR-BU</td><td class="br">55,00 €</td><td>ne</td><td class="br">55,00 €</td><td>prvi dan u ponudi, 1. 12. 2026.</td></tr><tr><td>Vijenac</td><td>SPR-VI</td><td class="br">90,00 €</td><td>ne</td><td class="br">90,00 €</td><td>prvi dan u ponudi, 1. 12. 2026.</td></tr><tr><td>Dostava, zona 1, do 3 km od radnje</td><td>DOS-1</td><td class="br">5,00 €</td><td>ne</td><td class="br">5,00 €</td><td>prvi dan u ponudi, 1. 12. 2026.</td></tr><tr><td>Dostava, zona 2, od 3 do 8 km od radnje</td><td>DOS-2</td><td class="br">8,00 €</td><td>ne</td><td class="br">8,00 €</td><td>prvi dan u ponudi, 1. 12. 2026.</td></tr><tr><td>Dostava, zona 3, ostatak grada</td><td>DOS-3</td><td class="br">12,00 €</td><td>ne</td><td class="br">12,00 €</td><td>prvi dan u ponudi, 1. 12. 2026.</td></tr></tbody>
+</table></div>
+<p style="margin-top:16px">Cijene su u eurima i konačne. Aranžmani za vjenčanja i događanja rade se po ponudi. Kad uđu u stalnu ponudu, ovdje će biti navedeni po elementima cijene.</p>
+</section>
+<section aria-labelledby="arh-naslov">
+<h2 id="arh-naslov">Arhiva</h2>
+<p>Zamijenjeni cjenici ostaju ovdje 30 dana. Arhiva je prazna dok se cjenik prvi put ne promijeni.</p>
+</section>
+</main>
+<footer class="podnozje"><div class="pod-stupci"><div><p class="pod-naziv">Ime cvjećarne</p><p>Ulica i kućni broj<br>10000 Zagreb</p><p><a href="tel:+38510000000">+385 1 000 0000</a><br><a href="mailto:pozdrav@ime-cvjecarne.hr">pozdrav@ime-cvjecarne.hr</a></p></div><div><p>Naziv obrta ili tvrtke, OIB 00000000000, upisan u obrtni ili sudski registar.</p><p>Cijene su u eurima i konačne. Za cvijeće i aranžmane izrađene po narudžbi pravo na jednostrani raskid ugovora ne primjenjuje se jer je riječ o lako pokvarljivoj robi.</p></div><div><p><a href="../cjenik/">Cjenik i bazne cijene</a><br><a href="../sprovod/">Cvijeće za sprovod</a></p><p>Opći uvjeti, izjava o privatnosti i prigovori: u izradi.</p></div></div></footer>
+</body>
+</html>
